@@ -14,18 +14,18 @@
   --color-title: #201c44;
 
   /* -----font-size----- */
-  --font-size-small:14px;
-  --font-size-medium:16px;
-  --font-size-normal:18px;
-  --font-size-large:38px;
+  --font-size-small: 14px;
+  --font-size-medium: 16px;
+  --font-size-normal: 18px;
+  --font-size-large: 38px;
 
   /* -----line-height----- */
-  --line-height-smaill:18px;
-  --line-height-medium:28px;
-  --line-height-large:120%;
-  --line-heigth-td:62px;
+  --line-height-smaill: 18px;
+  --line-height-medium: 28px;
+  --line-height-large: 120%;
+  --line-heigth-td: 62px;
 
   /* -----font-weight----- */
-  --font-weight-regular:400;
-  --font-weight-bold:700;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
 }
