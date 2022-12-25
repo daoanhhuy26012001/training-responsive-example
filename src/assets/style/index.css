@@ -26,40 +26,40 @@ body {
   padding: 30px 80px;
 }
 
-.logo {
+.navbar-brand {
   width: 113px;
   height: 35.26px;
 }
 
-.tab-nav{
+.navbar-toggler {
   outline: none;
   display: none;
 }
 
-.label{
+.navbar-label {
   color: black;
   display: none;
 }
 
-.burger{
+.burger {
   width: 35px;
   height: 5px;
   background-color: black;
   margin-top: 5px;
 }
 
-.content_nav{
+.navbar-nav {
   grid-column: 3;
   margin: 0;
   padding: 0;
 }
 
-.content_nav li{
+.nav-item {
   display: inline-block;
   padding-right: 10px;
 }
 
-.content_nav li a{
+.nav-link {
   color: black;
   position: relative;
   font-size: 18px;
@@ -68,7 +68,7 @@ body {
   text-transform: uppercase;
 }
 
-.content_nav li a::after{
+.nav-link::after {
   content: " ";
   display: block;
   height: 2px;
@@ -81,11 +81,11 @@ body {
   transition: transform ease-in-out 0.5s;
 }
 
-.content_nav li a:hover::after{
+.nav-link:hover::after {
   transform: scale(1, 1);
 }
 
-.content_section{
+.bg-hero {
   height: 120vh;
   margin: 0 auto;
   background-image: url(../images/banners/bg-hero.jpg);
@@ -97,21 +97,21 @@ body {
   align-items: center;
 }
 
-@media screen and (max-width:1440px) {
-  .navbar{
+@media screen and (max-width: 1440px) {
+  .navbar {
     width: 100%;
   }
 }
 
-@media screen and (max-width:770px) {
-  .label{
+@media screen and (max-width: 700px) {
+  .navbar-label {
     display: grid;
     cursor: pointer;
     grid-column: 3;
     padding-right: 10px;
   }
 
-  .content_nav{
+  .navbar-nav {
     display: grid;
     grid-template-columns: 1fr;
     grid-column: 1/4;
@@ -120,11 +120,11 @@ body {
     overflow: hidden;
     transition: all ease-in-out 0.6s;
   }
-  .container-fluid input:checked ~ .content_nav{
+  .navbar-toggler:checked ~ .content_nav {
     max-height: 500px;
   }
 
-  .content_nav li{
+  .nav-item {
     padding: 15px 0;
   }
 }
