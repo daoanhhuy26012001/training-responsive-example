@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "plusJakataSans";
+  src: url(../fonts/plusJakataSans.ttf);
+}
+
+:root {
+  /* -----font----- */
+  --font-family: "plusJakataSans";
+
+  /* -----color----- */
+  --color-primary: #3c3679;
+  --color-secondary: #fae0e1;
+  --color-terrial: #131126;
+  --color-title: #201c44;
+
+  /* -----font-size----- */
+  --font-size-small: 14px;
+  --font-size-medium: 16px;
+  --font-size-normal: 18px;
+  --font-size-large: 38px;
+
+  /* -----line-height----- */
+  --line-height-smaill: 18px;
+  --line-height-medium: 28px;
+  --line-height-large: 120%;
+  --line-heigth-td: 62px;
+
+  /* -----font-weight----- */
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+}
